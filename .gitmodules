@@ -1,0 +1,6 @@
+[submodule "ShellFusion-frontend"]
+	path = ShellFusion-frontend
+	url = https://github.com/22AulnO/ShellFusion-frontend
+[submodule "ShellFusion-backend"]
+	path = ShellFusion-backend
+	url = https://github.com/22AulnO/ShellFusion-backend
