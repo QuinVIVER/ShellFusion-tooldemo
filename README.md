@@ -29,7 +29,7 @@ The backend is responsible for the answer generation by leveraging the dataset w
 Based on the datasets, the function of the Backend includes _Similar Question Retrieval_, _Shell Command Detection, Filtering & Ranking_ and _Answer Generation_.
 ### Frontend User Interface
 We develop the frontend of ShellFusion using the `Vue CLI 3` framework. It's responsible for obtaining the query and presenting the answer in a clean and understandable way.
-## Deployment Walkthrough
+## Deployment
 It takes four steps to deploy the tool. 
 ### Step 1: Start Elasticsearch Using Docker.
 
