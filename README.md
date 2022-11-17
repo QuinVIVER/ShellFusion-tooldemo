@@ -15,7 +15,7 @@ This is a tool demo demonstration of our work ShellFusion. In this README, we pr
   - [Usage](#usage)
 
 ## Introduction of ShellFusion
-In our paper, we have implemented ShellFusion as a standalone web-based tool to help users address shell programming tasks by recommending relevant shell commands and comprehensive answers. The tool consists of two parts: the `Backend` and the `Frontend User Interface`.
+In our paper, we have implemented ShellFusion as a stand-alone web-based tool to help users address shell programming tasks by recommending relevant shell commands and presenting comprehensive answers. The tool consists of two parts: the `Backend` and the `Frontend User Interface`.
 ### Backend
 The backend is responsible for the answer generation by leveraging the dataset we built. The dataset we provide contains:
  - Shell-Related Questions
