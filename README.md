@@ -30,7 +30,7 @@ Based on the datasets, the function of the Backend includes _Similar Question Re
 ### Frontend User Interface
 We develop the frontend of ShellFusion using the `Vue CLI 3` framework. It's responsible for obtaining the query and presenting the answer in a clean and understandable way.
 ## Deployment Walkthrough
-It requires four steps to deploy the tool. 
+It takes four steps to deploy the tool. 
 ### Step 1: Start Elasticsearch Using Docker.
 
 The first step is to start an Elasticsearch service using Docker. We release the Elasticsearch configuration file `elasticsearch.yml` in the **ShellFusion-backend** folder. The Elasticsearch service can be started by  
