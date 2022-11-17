@@ -1,6 +1,5 @@
 # ShellFusion Tool Readme
-This is a tool demo demonstration of our work ShellFusion. In this README, we provide a walkthrough of our tool demonstration.
-
+This is a tool demo demonstration of our work ShellFusion. In this README, we provide a walkthrough of our tool demonstration and the way to deploy the tool.
 ## Table of Contents
 
 - [ShellFusion Tool Readme](#shellfusion-tool-readme)
@@ -8,7 +7,7 @@ This is a tool demo demonstration of our work ShellFusion. In this README, we pr
   - [Introduction of ShellFusion](#introduction-of-shellfusion)
     - [Backend](#backend)
     - [Frontend User Interface](#frontend-user-interface)
-  - [Deployment Walkthrough](#deployment-walkthrough)
+  - [Tool Deployment](#tool-deployment)
     - [Step 1: Start Elasticsearch Using Docker.](#step-1-start-elasticsearch-using-docker)
     - [Step 2: Download Datasets and Build the Elasticsearch Index.](#step-2-download-datasets-and-build-the-elasticsearch-index)
     - [Step 3: Deploy the Frontend](#step-3-deploy-the-frontend)
@@ -29,7 +28,7 @@ The backend is responsible for the answer generation by leveraging the dataset w
 Based on the datasets, the function of the Backend includes _Similar Question Retrieval_, _Shell Command Detection, Filtering & Ranking_ and _Answer Generation_.
 ### Frontend User Interface
 We develop the frontend of ShellFusion using the `Vue CLI 3` framework. It's responsible for obtaining the query and presenting the answer in a clean and understandable way.
-## Deployment
+## Tool Deployment
 It takes four steps to deploy the tool. 
 ### Step 1: Start Elasticsearch Using Docker.
 
