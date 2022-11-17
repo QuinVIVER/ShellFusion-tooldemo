@@ -1,5 +1,5 @@
 # ShellFusion Tool Readme
-This is a tool demo demonstration of our work ShellFusion. In this README, we provide a walkthrough of our tool demonstration. Generally, it takes three steps to deploy the ShellFusion website on a Linux platform, as described below.
+This is a tool demo demonstration of our work ShellFusion. In this README, we provide a walkthrough of our tool demonstration.
 
 ## Table of Contents
 
