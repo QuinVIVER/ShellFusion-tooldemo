@@ -84,5 +84,5 @@ python3 online/backend.py --config config.yml
 
 ## Usage
 To use the ShellFusion tool, the user just needs to input their code-related query into the input box and click the search button, the tool will then return the generated answer.
-For users to better understand the usage of the tool, we offered an example query: ***How to extract the first two characters of a string in shell scripting***. The answer for the example query as below:
+For users to better understand the usage of the tool, we offered an example query: ***How to extract the first two characters of a string in shell scripting***. The answer for the example query is as below:
 ![query](https://github.com/QuinVIVER/ShellFusion-tooldemo/blob/main/figs/SFresult.jpg?raw=false) 
