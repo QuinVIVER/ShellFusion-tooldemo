@@ -56,7 +56,7 @@ python3 online/ES.py --config config.yml
 ```
 > if you're not deploying the Elasticsearch service at localhost, change the IP address in line 17 of `online/ES.py` to yours.
 ### Step 3: Deploy the Frontend
-First, install `Nginx` and the `Node.js` framework, then navigate into **ShellFusion-backend** folder and run the command below to install the frontend dependencies. 
+First, install `Nginx` and the `Node.js` framework, then navigate into **ShellFusion-frontend** folder and run the command below to install the frontend dependencies. 
 ```sh
 npm install
 ```
@@ -66,7 +66,7 @@ npm run build
 mv dist /usr/share/nginx/html
 nginx -s reload
 ```
-Now we can access the homepage of ShellFusion via the link `localhost:8001`. Note that we configure Nginx to show the homepage on port 8001. The configuration file `nginx.conf` can be found in the **ShellFusion-backend** folder.
+Now we can access the homepage of ShellFusion via the link `localhost:8001`. Note that we configure Nginx to show the homepage on port 8001. The configuration file `nginx.conf` can be found in the **ShellFusion-frontend** folder.
 
 ![Tool page](https://github.com/QuinVIVER/ShellFusion-tooldemo/blob/main/figs/sf.jpg?raw=false) 
 
