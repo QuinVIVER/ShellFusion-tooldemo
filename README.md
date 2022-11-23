@@ -12,7 +12,7 @@ This is a tool demo demonstration of our work ShellFusion. In this README, we pr
     - [Step 2: Download Datasets and Build the Elasticsearch Index.](#step-2-download-datasets-and-build-the-elasticsearch-index)
     - [Step 3: Deploy the Frontend](#step-3-deploy-the-frontend)
     - [Step 4: Deploy the Backend](#step-4-deploy-the-backend)
-  - [Usage](#usage-instruction)
+  - [Usage Instruction](#usage-instruction)
 
 ## Introduction of ShellFusion
 In our paper, we have implemented ShellFusion as a stand-alone web-based tool to help users address shell programming tasks by recommending relevant shell commands and presenting comprehensive answers. The tool consists of two parts: the `Backend` and the `Frontend User Interface`.
