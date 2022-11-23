@@ -12,7 +12,7 @@ This is a tool demo demonstration of our work ShellFusion. In this README, we pr
     - [Step 2: Download Datasets and Build the Elasticsearch Index.](#step-2-download-datasets-and-build-the-elasticsearch-index)
     - [Step 3: Deploy the Frontend](#step-3-deploy-the-frontend)
     - [Step 4: Deploy the Backend](#step-4-deploy-the-backend)
-  - [Usage](#usage)
+  - [Usage](#usage Instruction)
 
 ## Introduction of ShellFusion
 In our paper, we have implemented ShellFusion as a stand-alone web-based tool to help users address shell programming tasks by recommending relevant shell commands and presenting comprehensive answers. The tool consists of two parts: the `Backend` and the `Frontend User Interface`.
@@ -82,7 +82,7 @@ python3 online/backend.py --config config.yml
 ```
 > In practice, we recommend using screen or other approaches to ensure the persistence of the Backend.
 
-## Usage
+## Usage Instruction
 To use the ShellFusion tool, the user just needs to input their code-related query into the input box and click the search button, the tool will then return the generated answer.
 For users to better understand the usage of the tool, we offered an example query: ***How to extract the first two characters of a string in shell scripting***. The answer for the example query is as below:
 ![query](https://github.com/QuinVIVER/ShellFusion-tooldemo/blob/main/figs/SFresult.jpg?raw=false) 
