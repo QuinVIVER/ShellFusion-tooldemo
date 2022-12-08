@@ -50,7 +50,7 @@ wget http://8.134.73.140:30021/exp_models_dir.tgz
 wget http://8.134.73.140:30021/exp_posts_dir.tgz
 ```
 After downloading the tar files, unpack them into the **ShellFusion-backend** folder. 
-To build the Elasticsearch index, navigate into the **ShellFusion-backend** folder, change `<yourpassword>` in line 17 of `online/ES.py` to the _password for the elastic user_, then run
+To build the Elasticsearch index, navigate into the **ShellFusion-backend** folder, change `<yourpassword>` in line 19 of `online/ES.py` to the _password for the elastic user_, then run
 ``` sh
 python3 online/ES.py --config config.yml
 ```
