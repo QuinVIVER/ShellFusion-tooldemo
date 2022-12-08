@@ -54,7 +54,7 @@ To build the Elasticsearch index, navigate into the **ShellFusion-backend** fold
 ``` sh
 python3 online/ES.py --config config.yml
 ```
-> if you're not deploying the Elasticsearch service at localhost, change the IP address in line 17 of `online/ES.py` to yours.
+> if you're not deploying the Elasticsearch service at localhost, change the IP address in line 19 of `ShellFusion-backend/online/ES.py` to yours.
 ### Step 3: Deploy the Frontend
 First, install `Nginx` and the `Node.js` framework, then navigate into **ShellFusion-frontend** folder and run the command below to install the frontend dependencies. 
 ```sh
